@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    background: url(countbg.jpg);
+    background-size: cover;
+    height:100vh;
+}
+.all{
+    display: grid;
+}
+.all h1{
+    position: absolute;
+    left:48%;
+    color:white;
+    top:5%;
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+    top:25%;
+}
+
+.us1, .us2,.us3, .us4, .us5, .us6{
+    width:400px;
+    height:250px;
+    background-color: pink;
+    margin:20px;
+    padding:10px;
+    border:2px solid black;
+    border-radius: 50px;
+}
+.flex2{
+    display: flex;
+}
+.one{
+    position: relative;
+    left:10%;
+    top:2%;
+    text-decoration: underline;
+    color:darkslategray;
+}
+.two{
+    position: relative;
+    left:8%;
+    text-decoration: underline;
+    top:13%;
+}
+.three{
+    position: relative;
+    left:8%;
+    top:22%;
+    font-size: 20px;
+    font-weight: 100;
+}
+.us1:hover, .us2:hover,.us3:hover, .us4:hover, .us5:hover, .us6:hover{
+    background-color:rgb(199, 126, 138);
+    transition: all 0.3s linear;
+}
